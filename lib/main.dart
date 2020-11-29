@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'You have pushed the button this many times:',
+              'Push the button to get your tarot reading.',
             ),
             Text(
               '$_counter',
@@ -58,8 +58,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
+        tooltip: 'Get Reading',
+        child: Icon(Icons.touch_app),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
