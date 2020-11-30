@@ -28,13 +28,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -50,14 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
               'Push the button to get your tarot reading.',
             ),
             Text(
-              '$_counter',
+              '',
               style: Theme.of(context).textTheme.headline4,
             ),
           ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        onPressed: () {},
         tooltip: 'Get Reading',
         child: Icon(Icons.touch_app),
       ), // This trailing comma makes auto-formatting nicer for build methods.
