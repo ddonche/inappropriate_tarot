@@ -61,17 +61,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               FractionallySizedBox(
                 widthFactor: 0.5,
                 child: RoundedButton(
-                  title: 'Play the Game',
+                  title: 'Generate Reading',
                   colour: Colors.red[900],
                   onPressed: () {
-                    Navigator.pushNamed(context, RegistrationScreen.id);
+                    //Navigator.pushNamed(context, RegistrationScreen.id);
                   },
                 ),
               ),
               SizedBox(height: 8),
               Column(children: <Widget>[
                 Text(
-                  'A game of intrigue and conspiracy.',
+                  'Since 2010.',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 16,
@@ -80,7 +80,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 ),
                 SizedBox(height: 10),
                 Text(
-                  'This game has 6 levels so far.',
+                  'There are 66 possibilities so far.',
                   style: TextStyle(
                     color: Colors.blueGrey,
                     fontSize: 12,
